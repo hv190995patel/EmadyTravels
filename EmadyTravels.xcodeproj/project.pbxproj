@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2271D44799C35485EBDDC96F /* Pods_EmadyTravels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9C499791CED04F3026F79E /* Pods_EmadyTravels.framework */; };
+		6A1A58AD2E933BD2267B1CC5 /* Pods_EmadyTravels_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6087E30411AC2BD87FEA391 /* Pods_EmadyTravels_WatchKit_App.framework */; };
 		983A02A622394BB30087C25F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A02A522394BB30087C25F /* AppDelegate.swift */; };
 		983A02A822394BB30087C25F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A02A722394BB30087C25F /* ViewController.swift */; };
 		983A02AB22394BB30087C25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983A02A922394BB30087C25F /* Main.storyboard */; };
@@ -21,6 +23,7 @@
 		983A02CD22394BB60087C25F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A02CC22394BB60087C25F /* NotificationController.swift */; };
 		983A02CF22394BB60087C25F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A02CE22394BB60087C25F /* ComplicationController.swift */; };
 		983A02D122394BB70087C25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983A02D022394BB70087C25F /* Assets.xcassets */; };
+		A9EE3E482AB40B314AFD4602 /* Pods_EmadyTravels_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6988C2D5C1DFB4E3969E89 /* Pods_EmadyTravels_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B9C499791CED04F3026F79E /* Pods_EmadyTravels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmadyTravels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE86660C3BF23ED8FC9974F /* Pods-EmadyTravels WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmadyTravels WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-EmadyTravels WatchKit App/Pods-EmadyTravels WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		576E8A32E9FE06279143EC50 /* Pods-EmadyTravels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmadyTravels.release.xcconfig"; path = "Target Support Files/Pods-EmadyTravels/Pods-EmadyTravels.release.xcconfig"; sourceTree = "<group>"; };
+		8AA10E986BB9E6B94E0E8508 /* Pods-EmadyTravels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmadyTravels.debug.xcconfig"; path = "Target Support Files/Pods-EmadyTravels/Pods-EmadyTravels.debug.xcconfig"; sourceTree = "<group>"; };
 		983A02A222394BB30087C25F /* EmadyTravels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmadyTravels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983A02A522394BB30087C25F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		983A02A722394BB30087C25F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,13 +92,27 @@
 		983A02D022394BB70087C25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983A02D222394BB70087C25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		983A02D322394BB70087C25F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9A6988C2D5C1DFB4E3969E89 /* Pods_EmadyTravels_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmadyTravels_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6087E30411AC2BD87FEA391 /* Pods_EmadyTravels_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmadyTravels_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0715795678D9FCE42FE2F8 /* Pods-EmadyTravels WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmadyTravels WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-EmadyTravels WatchKit Extension/Pods-EmadyTravels WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E0A7D40A547C712149F14F5A /* Pods-EmadyTravels WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmadyTravels WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-EmadyTravels WatchKit Extension/Pods-EmadyTravels WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E5672D15325A1E2BDDD23046 /* Pods-EmadyTravels WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmadyTravels WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-EmadyTravels WatchKit App/Pods-EmadyTravels WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B22322D044954C5CE28B96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1A58AD2E933BD2267B1CC5 /* Pods_EmadyTravels_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		983A029F22394BB30087C25F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2271D44799C35485EBDDC96F /* Pods_EmadyTravels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EE3E482AB40B314AFD4602 /* Pods_EmadyTravels_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +134,8 @@
 				983A02B822394BB50087C25F /* EmadyTravels WatchKit App */,
 				983A02C722394BB60087C25F /* EmadyTravels WatchKit Extension */,
 				983A02A322394BB30087C25F /* Products */,
+				FACB9663D946AAEEBBEDEDA2 /* Pods */,
+				9BE3F0EB96426F6B00E3E601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +186,30 @@
 			path = "EmadyTravels WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		9BE3F0EB96426F6B00E3E601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B9C499791CED04F3026F79E /* Pods_EmadyTravels.framework */,
+				A6087E30411AC2BD87FEA391 /* Pods_EmadyTravels_WatchKit_App.framework */,
+				9A6988C2D5C1DFB4E3969E89 /* Pods_EmadyTravels_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FACB9663D946AAEEBBEDEDA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AA10E986BB9E6B94E0E8508 /* Pods-EmadyTravels.debug.xcconfig */,
+				576E8A32E9FE06279143EC50 /* Pods-EmadyTravels.release.xcconfig */,
+				1FE86660C3BF23ED8FC9974F /* Pods-EmadyTravels WatchKit App.debug.xcconfig */,
+				E5672D15325A1E2BDDD23046 /* Pods-EmadyTravels WatchKit App.release.xcconfig */,
+				E0A7D40A547C712149F14F5A /* Pods-EmadyTravels WatchKit Extension.debug.xcconfig */,
+				CD0715795678D9FCE42FE2F8 /* Pods-EmadyTravels WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,10 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983A02DE22394BB70087C25F /* Build configuration list for PBXNativeTarget "EmadyTravels" */;
 			buildPhases = (
+				B5A1C9C6E0CAA53E4CFB7F25 /* [CP] Check Pods Manifest.lock */,
 				983A029E22394BB30087C25F /* Sources */,
 				983A029F22394BB30087C25F /* Frameworks */,
 				983A02A022394BB30087C25F /* Resources */,
 				983A02DD22394BB70087C25F /* Embed Watch Content */,
+				1FD815A59F97DAC7FE85D750 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,8 +238,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983A02DA22394BB70087C25F /* Build configuration list for PBXNativeTarget "EmadyTravels WatchKit App" */;
 			buildPhases = (
+				4083993415F1C32107DDD29A /* [CP] Check Pods Manifest.lock */,
 				983A02B222394BB50087C25F /* Resources */,
 				983A02D922394BB70087C25F /* Embed App Extensions */,
+				4B22322D044954C5CE28B96E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983A02D622394BB70087C25F /* Build configuration list for PBXNativeTarget "EmadyTravels WatchKit Extension" */;
 			buildPhases = (
+				FFBD26022593FAAD15FCE962 /* [CP] Check Pods Manifest.lock */,
 				983A02BF22394BB60087C25F /* Sources */,
 				983A02C022394BB60087C25F /* Frameworks */,
 				983A02C122394BB60087C25F /* Resources */,
+				A71EE080029C8F51D140E814 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +342,123 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD815A59F97DAC7FE85D750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmadyTravels/Pods-EmadyTravels-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmadyTravels/Pods-EmadyTravels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4083993415F1C32107DDD29A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmadyTravels WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71EE080029C8F51D140E814 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmadyTravels WatchKit Extension/Pods-EmadyTravels WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-watchOS/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmadyTravels WatchKit Extension/Pods-EmadyTravels WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A1C9C6E0CAA53E4CFB7F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmadyTravels-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBD26022593FAAD15FCE962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmadyTravels WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		983A029E22394BB30087C25F /* Sources */ = {
@@ -471,6 +642,7 @@
 		};
 		983A02D722394BB70087C25F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A7D40A547C712149F14F5A /* Pods-EmadyTravels WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +664,7 @@
 		};
 		983A02D822394BB70087C25F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0715795678D9FCE42FE2F8 /* Pods-EmadyTravels WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +686,7 @@
 		};
 		983A02DB22394BB70087C25F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE86660C3BF23ED8FC9974F /* Pods-EmadyTravels WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -531,6 +705,7 @@
 		};
 		983A02DC22394BB70087C25F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5672D15325A1E2BDDD23046 /* Pods-EmadyTravels WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -549,6 +724,7 @@
 		};
 		983A02DF22394BB70087C25F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA10E986BB9E6B94E0E8508 /* Pods-EmadyTravels.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -566,6 +742,7 @@
 		};
 		983A02E022394BB70087C25F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576E8A32E9FE06279143EC50 /* Pods-EmadyTravels.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

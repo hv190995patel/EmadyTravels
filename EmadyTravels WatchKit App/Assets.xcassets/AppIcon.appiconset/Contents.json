@@ -57,6 +57,7 @@
     {
       "size" : "98x98",
       "idiom" : "watch",
+      "filename" : "travel (1).jpg",
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "42mm"
@@ -69,8 +70,9 @@
       "subtype" : "44mm"
     },
     {
-      "idiom" : "watch-marketing",
       "size" : "1024x1024",
+      "idiom" : "watch-marketing",
+      "filename" : "travel.jpg",
       "scale" : "1x"
     }
   ],
