@@ -9,17 +9,48 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
     </dependencies>
     <scenes>
+        <!--Search Data Interface Controller-->
+        <scene sceneID="BEx-Id-5Su">
+            <objects>
+                <controller id="xA1-Hw-wko" customClass="SearchDataInterfaceController" customModule="EmadyTravels_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="7ko-s1-R6d">
+                            <items>
+                                <tableRow identifier="myRow" id="CQM-pN-W8D" customClass="SearchDataRowController" customModule="EmadyTravels_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="qta-Ug-DXZ">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="alg-cR-Pxi"/>
+                                            <label alignment="right" verticalAlignment="center" text="Label" id="O8R-4O-ohV"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="DestinationLbl" destination="O8R-4O-ohV" id="ZJq-mi-iZT"/>
+                                        <outlet property="SourceLbl" destination="alg-cR-Pxi" id="Pdm-Ng-avV"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="SearchTable" destination="7ko-s1-R6d" id="eQI-E3-BtV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-94" y="191"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EmadyTravels_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Label" id="a2J-GD-IOa"/>
-                        <button width="1" alignment="left" title="Button" id="7Un-ZZ-1I0">
+                        <label alignment="left" text="MENU" id="a2J-GD-IOa"/>
+                        <button width="1" alignment="left" title="SEARCH DATA" id="7Un-ZZ-1I0">
                             <connections>
                                 <action selector="getData" destination="AgC-eL-Hgc" id="QpL-kL-uVR"/>
+                                <segue destination="xA1-Hw-wko" kind="push" id="qRf-IF-tef"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="BOOKED FLIGHTS" id="fwv-oj-sm3"/>
                     </items>
                     <connections>
                         <outlet property="lblData" destination="a2J-GD-IOa" id="04V-DS-5gm"/>

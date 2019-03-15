@@ -7,7 +7,6 @@
 
 import WatchKit
 import Foundation
-import WatchConnectivity
 import SwiftyJSON
 import Alamofire
 
@@ -18,18 +17,15 @@ class InterfaceController: WKInterfaceController {
         // Configure interface objects here.
     }
     
+    var List:[[String:String]] = []
+    
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         
         super.willActivate()
         
-        
-        let headers: HTTPHeaders = [
-            "X-RapidAPI-Key":"d8948007bemsh6d460981203de1dp1632d4jsn1b6202a78279"
-        ]
-      
-        
-        Alamofire.request("https://siddiq-such-flight-v1.p.rapidapi.com/search?return-date=2019-04-07&to=LHE&depart-date=2019-03-31&from=DXB", headers: headers)
+       
+        Alamofire.request("http://5c8bb1eca0bb650014f03b6b.mockapi.io/api/v1/data")
             .responseJSON {
             // 1. store the data from the internet in the
             // response variable
