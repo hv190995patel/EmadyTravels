@@ -25,6 +25,8 @@
 		983A02D122394BB70087C25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983A02D022394BB70087C25F /* Assets.xcassets */; };
 		98795AA2223B42790010CD67 /* SearchDataInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98795AA1223B42790010CD67 /* SearchDataInterfaceController.swift */; };
 		98795AA4223B43990010CD67 /* SearchDataRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98795AA3223B43990010CD67 /* SearchDataRowController.swift */; };
+		98795AA6223CA14D0010CD67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98795AA5223CA14D0010CD67 /* GoogleService-Info.plist */; };
+		98795AA8223CA15C0010CD67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98795AA7223CA15C0010CD67 /* GoogleService-Info.plist */; };
 		A9EE3E482AB40B314AFD4602 /* Pods_EmadyTravels_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6988C2D5C1DFB4E3969E89 /* Pods_EmadyTravels_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +98,8 @@
 		983A02D322394BB70087C25F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		98795AA1223B42790010CD67 /* SearchDataInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataInterfaceController.swift; sourceTree = "<group>"; };
 		98795AA3223B43990010CD67 /* SearchDataRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataRowController.swift; sourceTree = "<group>"; };
+		98795AA5223CA14D0010CD67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		98795AA7223CA15C0010CD67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A6988C2D5C1DFB4E3969E89 /* Pods_EmadyTravels_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmadyTravels_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6087E30411AC2BD87FEA391 /* Pods_EmadyTravels_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmadyTravels_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0715795678D9FCE42FE2F8 /* Pods-EmadyTravels WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmadyTravels WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-EmadyTravels WatchKit Extension/Pods-EmadyTravels WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				983A02A522394BB30087C25F /* AppDelegate.swift */,
+				98795AA7223CA15C0010CD67 /* GoogleService-Info.plist */,
 				983A02A722394BB30087C25F /* ViewController.swift */,
 				983A02A922394BB30087C25F /* Main.storyboard */,
 				983A02AC22394BB50087C25F /* Assets.xcassets */,
@@ -184,6 +189,7 @@
 				983A02CC22394BB60087C25F /* NotificationController.swift */,
 				983A02CE22394BB60087C25F /* ComplicationController.swift */,
 				983A02D022394BB70087C25F /* Assets.xcassets */,
+				98795AA5223CA14D0010CD67 /* GoogleService-Info.plist */,
 				983A02D222394BB70087C25F /* Info.plist */,
 				983A02D322394BB70087C25F /* PushNotificationPayload.apns */,
 				98795AA1223B42790010CD67 /* SearchDataInterfaceController.swift */,
@@ -324,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983A02B022394BB50087C25F /* LaunchScreen.storyboard in Resources */,
+				98795AA8223CA15C0010CD67 /* GoogleService-Info.plist in Resources */,
 				983A02AD22394BB50087C25F /* Assets.xcassets in Resources */,
 				983A02AB22394BB30087C25F /* Main.storyboard in Resources */,
 			);
@@ -343,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983A02D122394BB70087C25F /* Assets.xcassets in Resources */,
+				98795AA6223CA14D0010CD67 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

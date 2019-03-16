@@ -19,13 +19,15 @@ class InterfaceController: WKInterfaceController {
     
     var List:[[String:String]] = []
     
+    var data = UserDefaults.standard
+    
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         
         super.willActivate()
+        data.set("harsh", forKey: "key")
         
-       
-        Alamofire.request("http://5c8bb1eca0bb650014f03b6b.mockapi.io/api/v1/data")
+        Alamofire.request("https://5c8bb1eca0bb650014f03b6b.mockapi.io/api/v1/data")
             .responseJSON {
             // 1. store the data from the internet in the
             // response variable
@@ -38,10 +40,32 @@ class InterfaceController: WKInterfaceController {
                 print("Error getting data from the URL")
                 return
             }
-                print("APIDATA\(apiData)")
+            let jsonResponse = JSON(apiData)
+            print("APIDATA\(jsonResponse)")
+         let sunriseTime = jsonResponse["items"]
+                
+                let x = ["source" : "Armenia"]
+                
+              print(x["value"])
+                for(key,value) in sunriseTime.enumerated()
+                {
+                    
+//                    if(value["source"] == x["source"]) {
+//                        print("Success")
+//                    }
+                     print("sunr\(sunriseTime["source"])")
+                    print("Value is\(value),KEY \(key)")
+                    
+//                    if(value["source"] == x["df"]) {
+//
+//                    }
+                }
+                
                
-             
-           
+                
+                
+                
+        
         }
     }
     

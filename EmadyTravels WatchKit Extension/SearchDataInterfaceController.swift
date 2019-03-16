@@ -50,9 +50,8 @@ class SearchDataInterfaceController: WKInterfaceController,WCSessionDelegate {
         print(message)
         
         for(key,value) in message{
-            
-        }
         
+        }
     }
 
     override func didDeactivate() {

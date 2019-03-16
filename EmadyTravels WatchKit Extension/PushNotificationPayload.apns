@@ -2,16 +2,24 @@
     "aps": {
         "alert": {
             "body": "Test message",
-            "title": "Optional title",
+            "title": "Emady Travels",
             "subtitle": "Optional subtitle"
         },
+        
+        "data": {
+            "body": "message",
+            "title": " title",
+            "subtitle": " subtitle"
+        },
+        
         "category": "myCategory",
         "thread-id":"5280"
     },
     
     "WatchKit Simulator Actions": [
+        
         {
-            "title": "First Button",
+            "title": "Emady Travels",
             "identifier": "firstButtonAction"
         }
     ],
